@@ -14,7 +14,7 @@ var serverPort = 8080;
 const MongoClient = require('mongodb').MongoClient;
 
 // Connection URL to mlab
-const url = 'mongodb://dummyuser:dummyuser22@ds249503.mlab.com:49503/motodb';
+const url = 'mongodb://dummyuser:dummypassword22@ds249503.mlab.com:49503/motodb';
 
 // Database Name
 const dbName = 'motodb';
