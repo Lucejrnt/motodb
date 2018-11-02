@@ -35,8 +35,6 @@ MongoClient.connect(url, function(err, client) {
 //adds the html and css files to the context
 app.use(express.static("."));
 
-get 172.168.1.1/getMotos?id=50&size=526
-
 //returns the main reactive page when the right url is quire
 app.get('/', function(request, response){
     response.sendFile('index.html');
