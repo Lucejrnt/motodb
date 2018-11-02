@@ -1,0 +1,20 @@
+{
+  "name": "motodb",
+  "version": "1.0.0",
+  "description": "This is a sample server for moto management.",
+  "main": "back.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node back.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "json-parser": "^1.1.5",
+    "mongodb": "^3.1.8"
+  }
+}
